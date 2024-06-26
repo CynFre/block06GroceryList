@@ -7,21 +7,32 @@ ul {
 
 }
 .FreshProduce{
-    width: 25%;
+    width: 75%;
     border: 3px solid;
     background-color: white;
+    text-align: center;
 
 }
 .Veggies{
     display: inline-block;
+    border: 3px solid;
+    width: 25%;
 }
 .Fruit{
     display: inline-block;
+    border: 3px solid red;
+    width: 25%;
+
+}
+
+.pic{
+    display: inline-block
     
 }
 .DryGoods{
-    width: 25%;
+    width: 75%;
     border: 3px solid ;
     border-color: blue;
     background-color: white;
+    text-align: center;
 }
