@@ -1,12 +1,27 @@
 h1{
+    text-align: center;
 
 }
 ul { 
     list-style-type: square;
 
 }
-section.FreshProduce{
-    border: 5px color(blue);
-    
+.FreshProduce{
+    width: 25%;
+    border: 3px solid;
+    background-color: white;
 
+}
+.Veggies{
+    display: inline-block;
+}
+.Fruit{
+    display: inline-block;
+    
+}
+.DryGoods{
+    width: 25%;
+    border: 3px solid ;
+    border-color: blue;
+    background-color: white;
 }
