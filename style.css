@@ -11,6 +11,7 @@ ul {
     border: 3px solid;
     background-color: white;
     text-align: center;
+    text-decoration: underline;
 
 }
 .Veggies{
@@ -35,4 +36,5 @@ ul {
     border-color: blue;
     background-color: white;
     text-align: center;
+    text-decoration: underline;
 }
