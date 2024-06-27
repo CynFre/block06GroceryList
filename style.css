@@ -13,7 +13,10 @@ h1{
 
 ul { 
     list-style-type: square;
-
+    display: inline-block;
+}
+ol{
+    display: inline-block;
 }
 /*I included a background color of white for each section heading and a variety of background colors for each section */
 .FreshProduce{
