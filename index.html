@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grocery List</title>
+    <!--Included an external style sheet, internal styling in the header and in line css with the images -->
     <link rel="stylesheet" href="style.css">
     <style>
         body {
@@ -13,42 +14,88 @@
 </head>
 <body>
 <main class = "mainContent">
+    <!--I used 3 types of headings: h1, h2 and h3-->
 <h1>Organized Grocery List</h1> 
  <div class = "FreshProduce"><h2>Fresh Produce</h2></div>
- <article class = "Fresh">
+ <article class = "fresh">
  <section class="Veggies"><h3>Veggies</h3>
         <ol>
             <li>Lettuce</li>
             <li>Cucumbers</li>
-            <li>Spinach</li>
-            
+            <li>Spinach</li> 
         </ol>
     </section>
-<img class="pic" src = "imagesGroceries/produce.jpg" alt = "Produce" width = "200px" />
-<section class="Fruit"><h3>Fruit</h3>
+    <!--I used both ordered and unordered lists-->
+  <section class="Fruit"><h3>Fruit</h3>
         <ol>
             <li>Apples</li>
             <li>Bananas</li>
             <li>Strawberries</li>
         </ol> 
     </section>  
+    <section class="freshHerbs"><h3>Fresh Herbs</h3>
+        <ol>
+            <li>Basil</li>
+            <li>Thyme</li>
+            <li>Sage</li>
+        </ol> 
+    </section>  
+    <!--I included 3 photos with padding to visually describe each section-->
+    <img class="pic" src = "imagesGroceries/produce.jpg" alt = "Produce" width = "200px" />
 </article>
-
- 
-    
- 
-
 <p></p>
-
 <div class="DryGoods"><h2>Dry Goods</h2></div>
-
-
-        
-   
-  
-   
-    
-    
+<article class = "dry">
+    <section class="Veggies"><h3>Canned Veggies</h3>
+           <ul>
+               <li>Green Beans</li>
+               <li>Beets</li>
+               <li>Corn</li> 
+           </ul>
+       </section>
+   <section class="pasta"><h3>Pasta</h3>
+           <ul>
+               <li>Spiral Noodles</li>
+               <li>Spaghetti Noodles</li>
+               <li>Flat Egg Noodles</li>
+           </ul> 
+       </section>  
+       <section class="cereals"><h3>Cereals</h3>
+           <ul>
+               <li>Corn Flakes</li>
+               <li>Rolled Oats</li>
+               <li>Cream of Wheat</li>
+           </ul> 
+       </section>  
+       <img class="pic" src = "imagesGroceries/dry_goods.jpg" alt = "Dry Goods" width = "200px" />
+   </article>
+   <p></p>
+   <div class="frozen"><h2>Frozen Foods</h2></div>
+   <article class = "frozenFoods">
+    <section class="Veggies"><h3>Frozen Vegetables</h3>
+           <ol>
+               <li>Carrots</li>
+               <li>Peas</li>
+               <li>Pearl Onions</li> 
+           </ol>
+       </section>
+   <section class="meats"><h3>Frozen Meats & Fish</h3>
+           <ol>
+               <li>Chicken Breasts</li>
+               <li>Shrimp</li>
+               <li>Cod Fillets</li>
+           </ol> 
+       </section>  
+       <section class="iceCream"><h3>Ice Cream</h3>
+           <ol>
+               <li>Carmel Swirl</li>
+               <li>Chocolate</li>
+               <li>Vanilla</li>
+           </ol> 
+       </section>  
+       <img class="pic" src = "imagesGroceries/frozen.jpg" alt = "Frozen Foods" width = "230px" />
+   </article>
+   <p></p>
 
 </main>   
 </body>
